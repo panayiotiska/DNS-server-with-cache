@@ -1,4 +1,4 @@
-DNS Server in C with cache implementation
+## DNS Server in C with cache implementation
 
 Instructions to run:
 
@@ -7,7 +7,7 @@ Instructions to run:
 - From clDNS enter host names and server will return its IP address. If host name does not exist, returns -1.
 - To exit, CTRL+C or just ENTER.
 
->>Libraries used: Douglas Comer's cnaiapi.<<
+> Libraries used: Douglas Comer's cnaiapi.
 
 clDNS.c :   Once connected to the server, it reads an address from the user,
 	          sends this address to the server through the send function. Subsequently
